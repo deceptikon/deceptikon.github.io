@@ -1,14 +1,43 @@
-/*
----------------------------------------------------------------------------------
-	STRIPPED DOWN RESUME TEMPLATE
-    html resume
+body {
+  background: #000;
+}
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  position: relative;
+  background: #222;
+}
+#cv header .social li {
+  display: inline-block;
+  padding: 0 1em;
+}
+#cv header .social li a {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  background: url('../i/github.svg') 100%;
+  text-indent: -5000px;
+  overflow: hidden;
+}
+#cv header .social li a.tg { background-image: url('../i/telegram.svg'); }
+#cv header .social li a.in { background-image: url('../i/linkedin.svg'); }
+#cv header .social li a.em { background-image: url('../i/mail.svg'); }
 
-    v0.9: 5/28/09
+.me {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 50px;
+}
+.me img {
+  border: 0.5px solid #EEE;
+  border-radius: 50%;
+  width: 100%;
+}
 
-    design and code by: thingsthatarebrown.com 
-                        (matt brown)
----------------------------------------------------------------------------------
-*/
+
+
 
 
 .msg { padding: 10px; background: #222; position: relative; }
@@ -71,5 +100,3 @@ a#pdf:hover { background: #222; }
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
-
-
