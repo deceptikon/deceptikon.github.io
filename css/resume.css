@@ -93,3 +93,7 @@ a#pdf:hover { background: #222; }
 .avatar img {
     width: 100%;
 }
+.stack {
+    margin: 0;
+    font-style: italic;
+}
